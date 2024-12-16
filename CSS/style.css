@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("Fonts/Roboto-Regular.ttf");
+    src: url('Fonts/Roboto-Regular.ttf');
 }
 
 *{
@@ -12,7 +12,7 @@
     scroll-behavior: smooth;
 }
 body {
-    font-family: "Roboto";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
     font-size: 1.5rem;
@@ -283,11 +283,13 @@ img{
     width: auto;
     height: 10rem;
     display: block;
+    /* background-color: red; */
 }
 
 .video-box img {
     border-radius: .5rem;
     transition: .5s;
+    object-fit: cover;
 }
 .video-box img:hover {
     border-radius: 0;
